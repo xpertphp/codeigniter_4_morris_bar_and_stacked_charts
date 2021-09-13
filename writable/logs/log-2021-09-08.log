@@ -1,0 +1,136 @@
+CRITICAL - 2021-09-08 11:42:17 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 21, Array)
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->index()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-09-08 11:42:54 --> Argument 2 passed to view() must be of the type array, null given, called in D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php on line 27
+#0 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(27): view('event', NULL)
+#1 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->index()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-09-08 12:05:02 --> Unknown column 'start' in 'where clause'
+CRITICAL - 2021-09-08 12:05:02 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\ci4_demo\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(37): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->loadData()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-09-08 12:05:37 --> Unknown column 'start' in 'where clause'
+CRITICAL - 2021-09-08 12:05:37 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\ci4_demo\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(37): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->loadData()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-09-08 12:11:12 --> Unknown column 'start' in 'where clause'
+CRITICAL - 2021-09-08 12:11:12 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\ci4_demo\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(37): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->loadData()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-09-08 12:14:23 --> Unknown column 'start' in 'where clause'
+CRITICAL - 2021-09-08 12:14:23 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\ci4_demo\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(37): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->loadData()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-09-08 12:15:00 --> Unknown column 'start' in 'where clause'
+CRITICAL - 2021-09-08 12:15:00 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\ci4_demo\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(37): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->loadData()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-09-08 12:15:26 --> Unknown column 'start' in 'where clause'
+CRITICAL - 2021-09-08 12:15:26 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\ci4_demo\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(37): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->loadData()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-09-08 12:17:04 --> Unknown column 'start' in 'where clause'
+CRITICAL - 2021-09-08 12:17:04 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\ci4_demo\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(37): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->loadData()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-09-08 12:19:05 --> Unknown column 'start' in 'where clause'
+CRITICAL - 2021-09-08 12:19:05 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\ci4_demo\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(37): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->loadData()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-09-08 12:20:58 --> Unknown column 'start' in 'where clause'
+CRITICAL - 2021-09-08 12:20:58 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\ci4_demo\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(38): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->loadData()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-09-08 12:21:39 --> Unknown column 'start' in 'where clause'
+CRITICAL - 2021-09-08 12:21:39 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\ci4_demo\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(38): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->loadData()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-09-08 12:23:08 --> Unknown column 'start' in 'where clause'
+CRITICAL - 2021-09-08 12:23:08 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\ci4_demo\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(39): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->loadData()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-09-08 12:26:29 --> Unknown column 'tital' in 'field list'
+CRITICAL - 2021-09-08 12:26:29 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\ci4_demo\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\ci4_demo\app\Controllers\Fullcalendar.php(38): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(928): App\Controllers\Fullcalendar->loadData()
+#3 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fullcalendar))
+#4 D:\xampp\htdocs\ci4_demo\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\ci4_demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\ci4_demo\system\Commands\Server\rewrite.php(45): require_once('D:\\xampp\\htdocs...')
+#7 {main}
